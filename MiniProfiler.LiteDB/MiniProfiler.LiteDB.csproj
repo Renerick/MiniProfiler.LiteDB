@@ -6,7 +6,7 @@
         <Authors>Denis Palashevskii</Authors>
         <PackageTags>miniprofiler;litedb</PackageTags>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <Description>A simple wrapping layer for profiling LiteDB database connections with MiniProfiler.</Description>
+        <Description>A simple wrapper for profiling LiteDB database with MiniProfiler.</Description>
         <RepositoryUrl>https://github.com/Renerick/MiniProfiler.LiteDB</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
     </PropertyGroup>

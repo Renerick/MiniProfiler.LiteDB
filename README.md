@@ -1,7 +1,6 @@
 ﻿# MiniProfiler.LiteDB
 
-A simple wrapping layer for profiling LiteDB database connections with
-MiniProfiler.
+A simple wrapper for profiling LiteDB database with MiniProfiler.
 
 ## How it works
 

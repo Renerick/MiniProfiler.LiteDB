@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using System.Linq;
 using FluentAssertions;
@@ -10,7 +11,7 @@ public class ProfiledLiteDatabaseTest
 {
     class TestCollection
     {
-        public string Test { get; set; }
+        public string Test { get; set; } = string.Empty;
     }
 
     private readonly StackExchange.Profiling.MiniProfiler _profiler;
