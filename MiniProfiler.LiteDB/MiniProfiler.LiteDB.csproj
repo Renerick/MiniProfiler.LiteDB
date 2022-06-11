@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <Title>MiniProfiler.LiteDB</Title>
+        <Authors>Denis Palashevskii</Authors>
+        <PackageTags>miniprofiler;litedb</PackageTags>
+        <Description>A simple wrapping layer for profiling LiteDB database connections with MiniProfiler.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="LiteDB" Version="5.*" />
+      <PackageReference Include="MiniProfiler.Shared" Version="4.*" />
+    </ItemGroup>
+
+</Project>
