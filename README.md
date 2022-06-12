@@ -1,5 +1,7 @@
 ﻿# MiniProfiler.LiteDB
 
+[![Nuget](https://img.shields.io/nuget/v/Contrib.MiniProfiler.LiteDB?logo=nuget&style=flat-square)](https://www.nuget.org/packages/Contrib.MiniProfiler.LiteDB/)
+
 A simple wrapper for profiling LiteDB database with MiniProfiler.
 
 ## How it works
@@ -10,8 +12,8 @@ in all methods that query or modify data in LiteDB database.
 
 The results look like this
 
-| ![Profile result](imgs/profile-result.png) | ![Query details](imgs/query-details.png) |
-|--------------------------------------------|------------------------------------------|
+| ![Profile result](https://raw.githubusercontent.com/Renerick/MiniProfiler.LiteDB/master/imgs/profile-result.png) | ![Query details](https://raw.githubusercontent.com/Renerick/MiniProfiler.LiteDB/master/imgs/query-details.png) |
+|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 
 ## How to use
 
@@ -34,7 +36,7 @@ var database = new LiteDatabase(
 
 ## License
 
-This packages is distributed under the [MIT License](LICENSE.md)
+This packages is distributed under the [MIT License](https://github.com/Renerick/MiniProfiler.LiteDB/blob/master/LICENSE.md)
 
 ---
 

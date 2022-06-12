@@ -10,11 +10,16 @@
         <Description>A simple wrapper for profiling LiteDB database with MiniProfiler.</Description>
         <RepositoryUrl>https://github.com/Renerick/MiniProfiler.LiteDB</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="LiteDB" Version="[5.0.9,)" />
-      <PackageReference Include="MiniProfiler.Shared" Version="[4,)" />
+        <None Include="..\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="LiteDB" Version="[5.0.9,)"/>
+        <PackageReference Include="MiniProfiler.Shared" Version="[4,)"/>
     </ItemGroup>
 
 </Project>
