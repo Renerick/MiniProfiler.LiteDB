@@ -31,7 +31,7 @@ jobs:
       - name: Test
         run: dotnet test --no-build --configuration Release
       - name: Pack
-        run: dotnet pack --no-build --configuration Release -o . --include-symbols -p:SymbolPackageFormat=snupkg -p:Version=${{ steps.version.outputs.version }}
+        run: dotnet pack --no-build --configuration Release -o . --include-symbols -p:SymbolPackageFormat=snupkg -p:Version=${{ steps.version.outputs.version }} -p:ContinuousIntegrationBuild=true
       - name: Publish
         run: dotnet nuget push *.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{secrets.NUGET_API_TOKEN}}
       - name: Create version tag
